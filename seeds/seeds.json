@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "playerId": "playerId1",
+      "password": "Secure_P@ssw0rD!"
+    },
+    {
+      "playerId": "playerId2",
+      "password": "Secure_P@ssw0rD!"
+    },
+    {
+      "playerId": "playerId3",
+      "password": "Secure_P@ssw0rD!"
+    }
+  ]
+}
