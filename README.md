@@ -1,3 +1,8 @@
+# Design
+
+■ Explains the system and application design
+■ Some explanation about the internal code design
+
 ## Running the app
 
 ```bash
@@ -60,4 +65,4 @@ You can test using this [link](http://localhost:3000/docs)
         * Encrypted new order id
             * Use aes-256-cbc encryption algorithm
 
-4. The system should be ready to lunch with the user and offers set data injected into the chosen DB in the setup
+4. The system should be ready to launch with the user and offers set data injected into the chosen DB in the setup

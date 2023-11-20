@@ -20,10 +20,8 @@ import { users } from '../seeds/seeds.json'
         readyLog: true,
         errorLog: true,
         closeClient: true,
-        // config: configService.get('redis'),
-        //todo: change
         config: {
-          host: 'localhost',
+          host: configService.get('REDIS_HOST') || 'localhost',
           port: 6379,
           onClientCreated(client) {
             client.on('ready', () => {
